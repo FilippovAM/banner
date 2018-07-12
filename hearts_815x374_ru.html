@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>hearts_815x374_ru</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script>
+(function (cjs, an) {
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [];
+// symbols:
+(lib.bg = function() {
+	this.initialize(img.bg);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,815,374);
+(lib.flame1 = function() {
+	this.initialize(img.flame1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,85,175);
+(lib.flame2 = function() {
+	this.initialize(img.flame2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,79,175);
+(lib.flame3 = function() {
+	this.initialize(img.flame3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,77,175);
+(lib.flame4 = function() {
+	this.initialize(img.flame4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,80,160);
+(lib.flame5 = function() {
+	this.initialize(img.flame5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,86,161);
+(lib.flame6 = function() {
+	this.initialize(img.flame6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,169);
+(lib.leave = function() {
+	this.initialize(img.leave);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,317,110);
+(lib.title = function() {
+	this.initialize(img.title);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,781,60);// helper functions:
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+(lib.Tween1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// Layer_1
+	this.instance = new lib.title();
+	this.instance.parent = this;
+	this.instance.setTransform(-390.5,-30);
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-390.5,-30,781,60);
+(lib.Symbol1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// Layer_1
+	this.instance = new lib.leave();
+	this.instance.parent = this;
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+}).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(0,0,317,110), null);
+(lib.flame = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// Layer_1
+	this.instance = new lib.flame1();
+	this.instance.parent = this;
+	this.instance.setTransform(0,-175);
+	this.instance_1 = new lib.flame2();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(0,-175);
+	this.instance_2 = new lib.flame3();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(0,-175);
+	this.instance_3 = new lib.flame4();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(0,-160);
+	this.instance_4 = new lib.flame5();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(0,-161);
+	this.instance_5 = new lib.flame6();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(0,-169);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},2).to({state:[{t:this.instance_2}]},2).to({state:[{t:this.instance_3}]},2).to({state:[{t:this.instance_4}]},2).to({state:[{t:this.instance_5}]},2).wait(2));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,-175,85,175);
+(lib.title_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// Layer_1
+	this.instance = new lib.Tween1("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(0,-30);
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:-22},36).to({y:-30},35).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-390.5,-60,781,60);
+(lib.leave_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// Layer_1
+	this.instance = new lib.Symbol1();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,1,1,0,0,0,158.5,110);
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regY:55,rotation:0.4,x:0.4,y:-55},0).wait(1).to({rotation:0.7,x:0.8,y:-54.9},0).wait(1).to({rotation:1.1,x:1.1},0).wait(1).to({rotation:1.5,x:1.5},0).wait(1).to({rotation:1.8,x:1.8,y:-55},0).wait(1).to({rotation:2.2,x:2.2,y:-54.9},0).wait(1).to({rotation:2.6,x:2.5},0).wait(1).to({rotation:2.9,x:2.9},0).wait(1).to({rotation:3.3,x:3.3,y:-54.8},0).wait(1).to({rotation:3.7,x:3.6},0).wait(1).to({rotation:4,x:3.9},0).wait(1).to({rotation:4.4,x:4.3},0).wait(1).to({rotation:4.8,x:4.6},0).wait(1).to({rotation:5.1,x:5,y:-54.7},0).wait(1).to({rotation:5.5,x:5.3},0).wait(1).to({rotation:5.9,x:5.6},0).wait(1).to({rotation:6.2,x:6},0).wait(1).to({rotation:6.6,x:6.4,y:-54.6},0).wait(1).to({rotation:7,x:6.7,y:-54.5},0).wait(1).to({rotation:7.3,x:7.1},0).wait(1).to({rotation:7.7,x:7.4},0).wait(1).to({rotation:8.1,x:7.8,y:-54.4},0).wait(1).to({rotation:8.4,x:8.2},0).wait(1).to({rotation:8.1,x:7.8},0).wait(1).to({rotation:7.7,x:7.5},0).wait(1).to({rotation:7.4,x:7.2,y:-54.5},0).wait(1).to({rotation:7,x:6.8},0).wait(1).to({rotation:6.7,x:6.4},0).wait(1).to({rotation:6.3,x:6.1,y:-54.6},0).wait(1).to({rotation:6,x:5.8,y:-54.7},0).wait(1).to({rotation:5.6,x:5.4},0).wait(1).to({rotation:5.3,x:5.1,y:-54.8},0).wait(1).to({rotation:4.9,x:4.8,y:-54.7},0).wait(1).to({rotation:4.6,x:4.4,y:-54.8},0).wait(1).to({rotation:4.2,x:4.1},0).wait(1).to({rotation:3.9,x:3.8},0).wait(1).to({rotation:3.5,x:3.4,y:-54.9},0).wait(1).to({rotation:3.2,x:3.1},0).wait(1).to({rotation:2.8,x:2.7,y:-54.8},0).wait(1).to({rotation:2.5,x:2.4,y:-54.9},0).wait(1).to({rotation:2.1,x:2.1},0).wait(1).to({rotation:1.8,x:1.8,y:-55},0).wait(1).to({rotation:1.4,x:1.4,y:-54.9},0).wait(1).to({rotation:1.1,x:1.1},0).wait(1).to({rotation:0.7,x:0.8},0).wait(1).to({rotation:0.4,x:0.4,y:-55},0).wait(1).to({rotation:0,x:0},0).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-158.5,-110,317,110);
+// stage content:
+(lib.hearts_815x374_ru = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// leaves
+	this.instance = new lib.leave_1();
+	this.instance.parent = this;
+	this.instance.setTransform(808.5,356,1,1,0,0,0,0,-55);
+	this.instance.cache(-160,-112,321,114);
+	this.instance_1 = new lib.leave_1();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(19.5,356.5,1,1,0,0,0,0,-55);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	// flame
+	this.instance_2 = new lib.flame();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(717,105.5,1,1,0,0,0,0,-87.5);
+	this.instance_2.compositeOperation = "lighter";
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+	// title
+	this.instance_3 = new lib.title_1();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(408.5,307,1,1,0,0,0,0,-30);
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+	// bg
+	this.instance_4 = new lib.bg();
+	this.instance_4.parent = this;
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(268.5,187,1106,411.5);
+// library properties:
+lib.properties = {
+	id: '1F3F46194F194E02A300909382F0D938',
+	width: 815,
+	height: 374,
+	fps: 24,
+	color: "#FFFFFF",
+	opacity: 1.00,
+	manifest: [
+		{src:"img/bg.jpg", id:"bg"},
+		{src:"img/flame1.png", id:"flame1"},
+		{src:"img/flame2.png", id:"flame2"},
+		{src:"img/flame3.png", id:"flame3"},
+		{src:"img/flame4.png", id:"flame4"},
+		{src:"img/flame5.png", id:"flame5"},
+		{src:"img/flame6.png", id:"flame6"},
+		{src:"img/leave.png", id:"leave"},
+		{src:"img/title.png", id:"title"}
+	],
+	preloads: []
+};
+// bootstrap callback support:
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+an.compositions = an.compositions || {};
+an.compositions['1F3F46194F194E02A300909382F0D938'] = {
+	getStage: function() { return exportRoot.getStage(); },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
+</script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("1F3F46194F194E02A300909382F0D938");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var img=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { img[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.hearts_815x374_ru();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;            
+			stage.tickOnUpdate = false;            
+			stage.update();            
+			stage.tickOnUpdate = true;		
+		}
+	}
+	makeResponsive(true,'width',true,1);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:815px; height:374px">
+		<canvas id="canvas" width="815" height="374" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:815px; height:374px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+</html>
